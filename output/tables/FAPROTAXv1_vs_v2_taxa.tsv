@@ -1,0 +1,13 @@
+tax_level	n_unique_taxa	database
+phylum	38	FAPROTAX v1
+class	92	FAPROTAX v1
+order	200	FAPROTAX v1
+family	422	FAPROTAX v1
+genus	1383	FAPROTAX v1
+species	4990	FAPROTAX v1
+phylum	45	FAPROTAX2-db
+class	112	FAPROTAX2-db
+order	262	FAPROTAX2-db
+family	567	FAPROTAX2-db
+genus	3013	FAPROTAX2-db
+species	13574	FAPROTAX2-db

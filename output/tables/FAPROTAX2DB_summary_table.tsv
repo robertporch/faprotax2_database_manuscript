@@ -1,0 +1,102 @@
+trait	mean_depth	p_val	significance	elements	main_element	electron_donor	electron_acceptor	aerobic	exclusively_prokaryotic	light_dependent	nested_in	species_present	species_absent	positive_clades
+oxygenic photoautotrophy	1.09591222077909	0	p < 0.05	CO	C	O	C	yes	no	yes	photoautotrophy	151	13409	1
+methanogenesis	0.571404838081001	0	p < 0.05	CH	C	variable	variable	no	yes	no		153	13191	4
+methanogenesis by CO2 reduction with H2	0.329731269888849	0	p < 0.05	CH	C	H	C	no	yes	no	methanogenesis	117	13225	6
+methanogenesis by disproportionation of methyl groups	0.29553466840641	0	p < 0.05	CH	C	none	none	no	yes	no	methanogenesis, chemoheterotrophy	39	13276	2
+predatory or exoparasitic	0.182063410855556	0	p < 0.05	C	C	C	variable	variable	no	no		19	0	10
+anammox	0.17475843471	0	p < 0.05	N	N	N	N	no	yes	no	nitrite_respiration	12	3269	3
+aerobic nitrite oxidation	0.173109829579167	0.001	p < 0.05	NO	N	N	O	yes	yes	no	nitrification	12	1724	6
+nitrification	0.137072135161404	0	p < 0.05	NO	N	N	O	yes	yes	no		38	1692	19
+obligate anaerobes	0.12358695857139	0	p < 0.05	variable	variable	variable	variable	no	no	no		1408	10539	506
+sulfate respiration	0.116218558259845	0	p < 0.05	S	S	variable	S	no	yes	no	respiration_of_sulfur_compounds	263	4647	49
+aerobic ammonia oxidation	0.108716347016111	0	p < 0.05	NO	N	N	O	yes	yes	no	nitrification	28	1492	15
+phototrophy	0.102580768276273	0	p < 0.05	variable	variable	variable	C	variable	no	yes		419	1541	104
+chemoheterotrophy	0.10007161323306	0	p < 0.05	C	C	C	variable	variable	no	no		11622	257	1173
+acetoclastic methanogenesis	0.0988595602144231	0.001	p < 0.05	CH	C	none	none	no	yes	no	methanogenesis, chemoheterotrophy	18	13304	4
+dark iron oxidation	0.0936526506077236	0	p < 0.05	Fe	Fe	Fe	variable	variable	yes	no	iron_oxidation	47	151	41
+methanogenesis using formate	0.0892550777496934	0	p < 0.05	C	C	C	C	no	yes	no	methanogenesis, chemoheterotrophy	67	13272	18
+iron oxidation	0.0891915197063406	0	p < 0.05	Fe	Fe	Fe	variable	variable	yes	no		56	95	46
+hydrogenotrophic methanogenesis	0.0852857861703411	0	p < 0.05	CH	C	H	C	no	yes	no	methanogenesis	94	13232	34
+photoautotrophy	0.0840759357317021	0	p < 0.05	C	C	variable	C	variable	no	yes	phototrophy	297	1680	74
+intracellular parasites	0.0822419025337784	0	p < 0.05	C	C	C	variable	variable	no	no		135	0	48
+methanotrophy	0.0822020585555102	0	p < 0.05	CH	C	C	variable	variable	yes	no	methylotrophy, hydrocarbon_degradation	85	76	18
+dark sulfide oxidation	0.0816845808015832	0	p < 0.05	S	S	S	variable	variable	yes	no	dark_oxidation_of_sulfur_compounds	110	192	77
+dark oxidation of sulfur compounds	0.0800790341856901	0	p < 0.05	S	S	S	variable	variable	yes	no		268	175	161
+sulfite respiration	0.0789487821351761	0	p < 0.05	S	S	variable	S	no	yes	no	respiration_of_sulfur_compounds	215	5651	118
+anoxygenic photoautotrophy Fe oxidizing	0.0788119776642857	0.025	p < 0.05	FeC	Fe	Fe	C	variable	yes	yes	anoxygenic_photoautotrophy	8	1780	7
+thiosulfate respiration	0.0787667543513771	0	p < 0.05	S	S	variable	S	no	yes	no	respiration_of_sulfur_compounds	380	5751	224
+arsenate respiration	0.0785765541465278	0	p < 0.05	As	As	variable	As	no	yes	no	dissimilatory_arsenate_reduction	35	3438	24
+sulfur respiration	0.0735753025125488	0	p < 0.05	S	S	variable	S	no	yes	no	respiration_of_sulfur_compounds	341	4634	192
+anaerobic chemoheterotrophy	0.0727692432204184	0	p < 0.05	C	C	C	variable	no	no	no	chemoheterotrophy	2625	3415	1323
+dark hydrogen oxidation	0.0724439095123597	0	p < 0.05	H	H	H	variable	variable	yes	no		385	504	227
+dark sulfur oxidation	0.0717340836017598	0	p < 0.05	S	S	S	variable	variable	yes	no	dark_oxidation_of_sulfur_compounds	140	450	92
+respiration of sulfur compounds	0.0715753199593254	0	p < 0.05	S	S	variable	S	no	yes	no		562	5465	286
+photoheterotrophy	0.0705585454285665	0	p < 0.05	C	C	C	C	variable	yes	yes	phototrophy	230	1634	128
+iron respiration	0.0705003952557784	0	p < 0.05	Fe	Fe	variable	Fe	no	yes	no		142	3592	107
+anoxygenic photoautotrophy	0.0698280788121311	0	p < 0.05	C	variable	variable	C	variable	yes	yes	photoautotrophy	138	1780	71
+aerobic anoxygenic phototrophy	0.0688472092017731	0	p < 0.05	C	C	C	C	yes	yes	yes	photoheterotrophy	57	2933	47
+alcohol fermentation	0.0681901388751431	0	p < 0.05	C	C	C	none	no	no	no	fermentation, chemoheterotrophy	273	4167	198
+aerobic chemoheterotrophy	0.066617547134342	0	p < 0.05	CO	C	C	O	yes	no	no	chemoheterotrophy	7789	1689	2232
+mammal gut	0.0662630676394093	0	p < 0.05	C	C	C	variable	variable	no	no		504	0	375
+dark thiosulfate oxidation	0.0653643134088375	0	p < 0.05	S	S	S	variable	variable	yes	no	dark_oxidation_of_sulfur_compounds	180	476	116
+fermentation	0.0636578854906042	0	p < 0.05	C	C	C	none	no	no	no	chemoheterotrophy	4220	3964	1899
+methanol oxidation	0.0624933719915822	0	p < 0.05	CH	C	C	variable	variable	no	no	methylotrophy	289	433	125
+animal parasites or symbionts	0.0618521534608821	0	p < 0.05	C	C	C	variable	variable	no	no		1171	0	772
+methylotrophy	0.061503849355625	0	p < 0.05	CH	C	variable	variable	variable	no	no	chemoheterotrophy	319	134	126
+anoxygenic photoautotrophy S oxidizing	0.0610572354136667	0	p < 0.05	SC	S	S	C	variable	yes	yes	anoxygenic_photoautotrophy	114	1781	70
+knallgas bacteria	0.0604758862878205	0.015	p < 0.05	HO	H	H	O	yes	yes	no	dark_hydrogen_oxidation	30	1436	26
+reductive acetogenesis	0.0594626102038878	0	p < 0.05	C	C	variable	C	no	yes	no		144	320	110
+sulfur reduction	0.0581555893201113	0	p < 0.05	S	S	variable	S	variable	yes	no		867	3259	571
+fumarate respiration	0.0577429443767366	0	p < 0.05	C	C	variable	C	no	yes	no		182	3732	143
+lactic acid fermentation	0.0565615432661443	0	p < 0.05	C	C	C	none	no	no	no	fermentation, chemoheterotrophy	689	4115	417
+human gut	0.056480853305908	0	p < 0.05	C	C	C	variable	variable	no	no	human_associated, mammal_gut	327	0	266
+dark sulfite oxidation	0.0555210395416667	0.059	p >= 0.05	S	S	S	variable	no	yes	no		22	376	18
+nitrate ammonification	0.0554159282177083	0.012	p < 0.05	N	N	variable	N	no	yes	no	nitrite_ammonification, nitrate_respiration	51	3198	48
+xylanolysis	0.0552989805043435	0	p < 0.05	C	C	C	variable	variable	no	no	chemoheterotrophy	358	567	297
+methanogenesis by reduction of methyl compounds with H2	0.0540355471357143	0.144	p >= 0.05	CH	C	H	C	no	yes	no	methanogenesis	8	13286	7
+anoxygenic photoautotrophy H2 oxidizing	0.0533417992546512	0.026	p < 0.05	HC	H	H	C	variable	yes	yes	anoxygenic_photoautotrophy	51	1802	43
+nitrite ammonification	0.053201239854717	0.011	p < 0.05	N	N	variable	N	no	yes	no	nitrite_respiration	57	3143	53
+facultative anaerobes	0.0525106340258942	0	p < 0.05	variable	variable	variable	variable	yes	no	no		2122	4736	1136
+nitrogen respiration	0.052367071583486	0	p < 0.05	N	N	variable	N	no	no	no		694	3492	524
+dissimilatory arsenate reduction	0.0522418387019231	0.056	p >= 0.05	As	As	variable	As	variable	yes	no		28	58	26
+nitrate respiration	0.0521201520190745	0	p < 0.05	N	N	variable	N	no	no	no	nitrate_reduction, nitrogen_respiration	641	6546	483
+pectin degradation	0.0505687333925294	0	p < 0.05	CHO	C	C	variable	variable	no	no	chemoheterotrophy	197	378	170
+human associated	0.0499754165033386	0	p < 0.05	variable	variable	variable	variable	variable	no	no		1235	0	891
+nitrite respiration	0.0487351013636116	0	p < 0.05	N	N	variable	N	no	no	no	nitrogen_respiration	391	3850	318
+cellulolysis	0.0475409621582863	0	p < 0.05	C	C	C	variable	variable	no	no	chemoheterotrophy	490	1685	415
+nitrate denitrification	0.0468274359012983	0.001	p < 0.05	N	N	variable	N	no	no	no	nitrite_denitrification, nitrate_respiration	327	6679	262
+gelatin degradation	0.0460756822930221	0	p < 0.05	CONH	C	C	variable	variable	no	no	chemoheterotrophy	3206	4185	2237
+lactate oxidation	0.0457706063667953	0	p < 0.05	CHO	C	C	variable	variable	no	no	chemoheterotrophy	1064	1034	788
+nitrogen fixation	0.0454119941918565	0.001	p < 0.05	N	N	variable	N	variable	yes	no		414	165	269
+manganese respiration	0.0453021970904762	0.122	p >= 0.05	Mn	Mn	variable	Mn	no	yes	no		44	3439	42
+nitrite denitrification	0.0449306851026976	0.014	p < 0.05	N	N	variable	N	no	no	no	nitrous_oxide_denitrification, nitrite_respiration	219	4062	188
+nitrous oxide denitrification	0.0447392883943942	0.059	p >= 0.05	N	N	variable	N	no	no	no	denitrification	101	3421	79
+nitrate reduction	0.0433459833490371	0.002	p < 0.05	N	N	variable	N	variable	no	no		3874	4637	2752
+acetate oxidation	0.0430437756786072	0.001	p < 0.05	CHO	C	C	variable	variable	no	no	chemoheterotrophy	1407	1301	1102
+alginate degradation	0.0415555867349397	0.187	p >= 0.05	CHO	C	C	variable	variable	no	no	chemoheterotrophy	90	299	83
+chitinolysis	0.0404689279545071	0.136	p >= 0.05	C	C	C	variable	variable	no	no	chemoheterotrophy	256	1240	213
+invertebrate parasites	0.0385739661812074	0.301	p >= 0.05	C	C	C	variable	variable	no	no		144	0	95
+hydrocarbon degradation	0.0385219487131162	0.28	p >= 0.05	CH	C	C	variable	variable	no	no	chemoheterotrophy	394	34	302
+ureolysis	0.038278585246955	0.618	p >= 0.05	NC	N	none	none	variable	no	no		1954	4941	1580
+aromatic compound degradation	0.0376359585687802	0.47	p >= 0.05	C	C	C	variable	variable	no	no	chemoheterotrophy	920	154	770
+fish parasites	0.0369167965219298	0.434	p >= 0.05	C	C	C	variable	variable	no	no	animal_parasites_or_symbionts	21	0	19
+human pathogens pneumonia	0.0368855313887597	0.451	p >= 0.05	C	C	C	variable	variable	no	no	human_pathogens_all	54	0	43
+ligninolysis	0.0364061138078125	0.475	p >= 0.05	C	C	C	variable	variable	no	no	chemoheterotrophy	32	37	32
+aliphatic non methane hydrocarbon degradation	0.0354968908241434	0.606	p >= 0.05	CH	C	C	variable	variable	no	no	hydrocarbon_degradation	133	72	87
+aromatic hydrocarbon degradation	0.0349913037965346	0.697	p >= 0.05	CH	C	C	variable	variable	no	no	aromatic_compound_degradation, hydrocarbon_degradation	224	155	202
+human pathogens all	0.0345684678274282	0.867	p >= 0.05	C	C	C	variable	variable	no	no	human_associated	448	0	348
+human pathogens nosocomia	0.0343355539818182	0.501	p >= 0.05	C	C	C	variable	variable	no	no	human_pathogens_all	13	0	11
+human pathogens meningitis	0.0328393456359375	0.654	p >= 0.05	C	C	C	variable	variable	no	no	human_pathogens_all	34	0	32
+plant pathogen	0.0318631936374183	0.947	p >= 0.05	C	C	C	variable	variable	no	no		219	0	133
+manganese oxidation	0.0312225011818182	0.658	p >= 0.05	Mn	Mn	Mn	variable	variable	yes	no		22	320	22
+oil bioremediation	0.0307786089018162	0.963	p >= 0.05	CH	C	C	variable	variable	no	no	chemoheterotrophy	167	4	156
+plastic degradation	0.0305640816589743	0.982	p >= 0.05	C	C	C	variable	variable	yes	no		255	30	234
+collagen degradation	0.0279146281569768	0.902	p >= 0.05	CONH	C	C	variable	variable	no	no	chemoheterotrophy	43	89	43
+human pathogens septicemia	0.0275056687255814	0.924	p >= 0.05	C	C	C	variable	variable	no	no	human_pathogens_all	43	0	43
+human pathogens diarrhea	0.0261357588204546	0.883	p >= 0.05	C	C	C	variable	variable	no	no	human_pathogens_all	23	0	22
+human pathogens gastroenteritis	0.0260750126045455	0.88	p >= 0.05	C	C	C	variable	variable	no	no	human_pathogens_all	24	0	22
+arsenite oxidation detoxification	0.023332859775	0.834	p >= 0.05	As	As	As	variable	variable	yes	no	dissimilatory_arsenite_oxidation	10	88	10
+dissimilatory arsenite oxidation	0.0222761604035714	0.904	p >= 0.05	As	As	As	variable	variable	yes	no		14	55	14
+chlorate reducers	0.0191651694	0.972	p >= 0.05	C	C	variable	Cl	variable	no	no		16	6	13
+arsenate detoxification	0.01826597239375	0.937	p >= 0.05	As	As	variable	As	variable	yes	no	dissimilatory_arsenate_reduction	8	143	8
+arsenite oxidation energy yielding	0.0148056318916667	0.951	p >= 0.05	As	As	As	variable	variable	yes	no	dissimilatory_arsenite_oxidation	6	325	6

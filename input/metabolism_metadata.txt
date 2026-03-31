@@ -1,0 +1,105 @@
+metabolism	elements	main_element	electron_donor	electron_acceptor	aerobic	exclusively_prokaryotic	light_dependent	nested_in
+methanotrophy	CH	C	C	variable	variable	yes	no	"methylotrophy, hydrocarbon_degradation"
+methanogenesis	CH	C	variable	variable	no	yes	no	NA
+methanogenesis_by_disproportionation_of_methyl_groups	CH	C	none	none	no	yes	no	"methanogenesis, chemoheterotrophy"
+acetoclastic_methanogenesis	CH	C	none	none	no	yes	no	"methanogenesis, chemoheterotrophy"
+methanogenesis_using_formate	C	C	C	C	no	yes	no	"methanogenesis, chemoheterotrophy"
+methanogenesis_by_CO2_reduction_with_H2	CH	C	H	C	no	yes	no	methanogenesis
+methanogenesis_by_reduction_of_methyl_compounds_with_H2	CH	C	H	C	no	yes	no	methanogenesis
+hydrogenotrophic_methanogenesis	CH	C	H	C	no	yes	no	methanogenesis
+methanol_oxidation	CH	C	C	variable	variable	no	no	methylotrophy
+methylotrophy	CH	C	variable	variable	variable	no	no	chemoheterotrophy
+aerobic_ammonia_oxidation	NO	N	N	O	yes	yes	no	nitrification
+aerobic_nitrite_oxidation	NO	N	N	O	yes	yes	no	nitrification
+nitrification	NO	N	N	O	yes	yes	no	NA
+sulfate_respiration	S	S	variable	S	no	yes	no	respiration_of_sulfur_compounds
+sulfur_respiration	S	S	variable	S	no	yes	no	respiration_of_sulfur_compounds
+dark_sulfite_oxidation	S	S	S	variable	no	yes	no	NA
+sulfite_respiration	S	S	variable	S	no	yes	no	respiration_of_sulfur_compounds
+thiosulfate_respiration	S	S	variable	S	no	yes	no	respiration_of_sulfur_compounds
+respiration_of_sulfur_compounds	S	S	variable	S	no	yes	no	NA
+arsenate_detoxification	As	As	variable	As	variable	yes	no	dissimilatory_arsenate_reduction
+arsenate_respiration	As	As	variable	As	no	yes	no	dissimilatory_arsenate_reduction
+dissimilatory_arsenate_reduction	As	As	variable	As	variable	yes	no	NA
+arsenite_oxidation_detoxification	As	As	As	variable	variable	yes	no	dissimilatory_arsenite_oxidation
+arsenite_oxidation_energy_yielding	As	As	As	variable	variable	yes	no	dissimilatory_arsenite_oxidation
+dissimilatory_arsenite_oxidation	As	As	As	variable	variable	yes	no	NA
+anammox	N	N	N	N	no	yes	no	nitrite_respiration
+nitrate_denitrification	N	N	variable	N	no	no	no	"nitrite_denitrification, nitrate_respiration"
+nitrite_denitrification	N	N	variable	N	no	no	no	"nitrous_oxide_denitrification, nitrite_respiration"
+nitrous_oxide_denitrification	N	N	variable	N	no	no	no	denitrification
+chitinolysis	C	C	C	variable	variable	no	no	chemoheterotrophy
+knallgas_bacteria	HO	H	H	O	yes	yes	no	dark_hydrogen_oxidation
+dark_hydrogen_oxidation	H	H	H	variable	variable	yes	no	NA
+nitrogen_fixation	N	N	variable	N	variable	yes	no	NA
+nitrate_ammonification	N	N	variable	N	no	yes	no	"nitrite_ammonification, nitrate_respiration"
+nitrite_ammonification	N	N	variable	N	no	yes	no	nitrite_respiration
+nitrite_respiration	N	N	variable	N	no	no	no	nitrogen_respiration
+cellulolysis	C	C	C	variable	variable	no	no	chemoheterotrophy
+xylanolysis	C	C	C	variable	variable	no	no	chemoheterotrophy
+dark_sulfide_oxidation	S	S	S	variable	variable	yes	no	dark_oxidation_of_sulfur_compounds
+dark_sulfur_oxidation	S	S	S	variable	variable	yes	no	dark_oxidation_of_sulfur_compounds
+dark_thiosulfate_oxidation	S	S	S	variable	variable	yes	no	dark_oxidation_of_sulfur_compounds
+dark_oxidation_of_sulfur_compounds	S	S	S	variable	variable	yes	no	NA
+manganese_oxidation	Mn	Mn	Mn	variable	variable	yes	no	NA
+manganese_respiration	Mn	Mn	variable	Mn	no	yes	no	NA
+ligninolysis	C	C	C	variable	variable	no	no	chemoheterotrophy
+fermentation	C	C	C	none	no	no	no	chemoheterotrophy
+lactic_acid_fermentation	C	C	C	none	no	no	no	"fermentation, chemoheterotrophy"
+alcohol_fermentation	C	C	C	none	no	no	no	"fermentation, chemoheterotrophy"
+aerobic_chemoheterotrophy	CO	C	C	O	yes	no	no	chemoheterotrophy
+invertebrate_parasites	C	C	C	variable	variable	no	no	NA
+human_pathogens_septicemia	C	C	C	variable	variable	no	no	human_pathogens_all
+human_pathogens_pneumonia	C	C	C	variable	variable	no	no	human_pathogens_all
+human_pathogens_nosocomia	C	C	C	variable	variable	no	no	human_pathogens_all
+human_pathogens_meningitis	C	C	C	variable	variable	no	no	human_pathogens_all
+human_pathogens_gastroenteritis	C	C	C	variable	variable	no	no	human_pathogens_all
+human_pathogens_diarrhea	C	C	C	variable	variable	no	no	human_pathogens_all
+human_pathogens_all	C	C	C	variable	variable	no	no	human_associated
+fish_parasites	C	C	C	variable	variable	no	no	animal_parasites_or_symbionts
+human_gut	C	C	C	variable	variable	no	no	"human_associated, mammal_gut"
+human_associated	variable	variable	variable	variable	variable	no	no	NA
+mammal_gut	C	C	C	variable	variable	no	no	NA
+animal_parasites_or_symbionts	C	C	C	variable	variable	no	no	NA
+plant_pathogen	C	C	C	variable	variable	no	no	NA
+oil_bioremediation	CH	C	C	variable	variable	no	no	chemoheterotrophy
+aromatic_hydrocarbon_degradation	CH	C	C	variable	variable	no	no	"aromatic_compound_degradation, hydrocarbon_degradation"
+aromatic_compound_degradation	C	C	C	variable	variable	no	no	chemoheterotrophy
+aliphatic_non_methane_hydrocarbon_degradation	CH	C	C	variable	variable	no	no	hydrocarbon_degradation
+hydrocarbon_degradation	CH	C	C	variable	variable	no	no	chemoheterotrophy
+dark_iron_oxidation	Fe	Fe	Fe	variable	variable	yes	no	iron_oxidation
+iron_oxidation	Fe	Fe	Fe	variable	variable	yes	no	NA
+iron_respiration	Fe	Fe	variable	Fe	no	yes	no	NA
+nitrate_respiration	N	N	variable	N	no	no	no	"nitrate_reduction, nitrogen_respiration"
+nitrate_reduction	N	N	variable	N	variable	no	no	NA
+nitrogen_respiration	N	N	variable	N	no	no	no	NA
+fumarate_respiration	C	C	variable	C	no	yes	no	NA
+intracellular_parasites	C	C	C	variable	variable	no	no	NA
+chlorate_reducers	C	C	variable	Cl	variable	no	no	NA
+predatory_or_exoparasitic	C	C	C	variable	variable	no	no	NA
+chloroplasts	CO	C	O	C	variable	yes	yes	NA
+nonphotosynthetic_cyanobacteria	C	C	C	none	variable	yes	no	subtract_chloroplasts
+photosynthetic_cyanobacteria	CO	C	O	C	variable	yes	yes	"oxygenic_photoautotrophy, subtract_chloroplats, subtract_nonphotosynthetic_cyanobacteria"
+anoxygenic_photoautotrophy_H2_oxidizing	HC	H	H	C	variable	yes	yes	anoxygenic_photoautotrophy
+anoxygenic_photoautotrophy_S_oxidizing	SC	S	S	C	variable	yes	yes 	anoxygenic_photoautotrophy
+anoxygenic_photoautotrophy_Fe_oxidizing	FeC	Fe	Fe	C	variable	yes	yes	anoxygenic_photoautotrophy
+anoxygenic_photoautotrophy	C	variable	variable	C	variable	yes	yes	photoautotrophy
+oxygenic_photoautotrophy	CO	C	O	C	yes	no	yes	photoautotrophy
+photoautotrophy	C	C	variable	C	variable	no	yes	phototrophy
+aerobic_anoxygenic_phototrophy	C	C	C	C	yes	yes	yes	photoheterotrophy
+photoheterotrophy	C	C	C	C	variable	yes	yes	phototrophy
+phototrophy	variable	variable	variable	C	variable	no	yes	NA
+plastic_degradation	C	C	C	variable	variable	yes	no	NA
+ureolysis	NC	N	none	none	variable	no	no	NA
+reductive_acetogenesis	C	C	variable	C	no	yes	no	NA
+chemoheterotrophy	C	C	C	variable	variable	no	no	NA
+gelatin_degradation	CONH	C	C	variable	variable	no	no	chemoheterotrophy
+acetate_oxidation	CHO	C	C	variable	variable	no	no	chemoheterotrophy
+lactate_oxidation	CHO	C	C	variable	variable	no	no	chemoheterotrophy
+alginate_degradation	CHO	C	C	variable	variable	no	no	chemoheterotrophy
+pectin_degradation	CHO	C	C	variable	variable	no	no	chemoheterotrophy
+collagen_degradation	CONH	C	C	variable	variable	no	no	chemoheterotrophy
+anaerobic_chemoheterotrophy	C	C	C	variable	no	no	no	chemoheterotrophy
+obligate_anaerobes	variable	variable	variable	variable	no	no	no	NA
+facultative_anaerobes	variable	variable	variable	variable	yes	no	no	NA
+sulfur_reduction	S	S	variable	S	variable	yes	no	NA
